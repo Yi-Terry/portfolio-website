@@ -301,6 +301,7 @@ section{
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
     text-align: center;
+    
 }
 
 .section-container{
@@ -378,6 +379,15 @@ article .icon{
 .project-btn{
     color: black;
     border-color: rgb(163, 163, 163);
+}
+
+.project-container{
+    cursor: default;
+    transition: all .5s ease-in-out;
+}
+
+.project-container:hover{
+    transform: translateY(-20px);
 }
 
 /* CONTACT */
